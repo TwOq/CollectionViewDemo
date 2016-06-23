@@ -25,6 +25,7 @@
 
 }
 
+//瀑布流布局
 - (void)flowWateLayout{
     
     FlowWaterLayout *layout = [[FlowWaterLayout alloc] init];
@@ -33,7 +34,7 @@
     layout.itemSize = CGSizeMake((WIDTH - 30)/4, 100);
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
-    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, WIDTH, HEIGHT - 100) collectionViewLayout:layout];
+    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 20, WIDTH, HEIGHT - 20) collectionViewLayout:layout];
     self.collectionView.delegate = self;
     self.collectionView.backgroundColor = [UIColor lightGrayColor];
     self.collectionView.dataSource = self;
@@ -43,7 +44,7 @@
 
 
 }
-
+//直线布局
 - (void)lineLayout{
     
     LineLayout *layout = [[LineLayout alloc] init];
