@@ -14,6 +14,7 @@
 		666AB2C41D1A30B5000507B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666AB2C31D1A30B5000507B8 /* Assets.xcassets */; };
 		666AB2C71D1A30B5000507B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666AB2C51D1A30B5000507B8 /* LaunchScreen.storyboard */; };
 		666AB2D01D1A3136000507B8 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 666AB2CF1D1A3136000507B8 /* LineLayout.m */; };
+		6684DB231D1B738F00B0A6AD /* FlowWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684DB221D1B738F00B0A6AD /* FlowWaterLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		666AB2C81D1A30B5000507B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		666AB2CE1D1A3136000507B8 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
 		666AB2CF1D1A3136000507B8 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
+		6684DB211D1B738F00B0A6AD /* FlowWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowWaterLayout.h; sourceTree = "<group>"; };
+		6684DB221D1B738F00B0A6AD /* FlowWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowWaterLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				666AB2BE1D1A30B5000507B8 /* ViewController.m */,
 				666AB2CE1D1A3136000507B8 /* LineLayout.h */,
 				666AB2CF1D1A3136000507B8 /* LineLayout.m */,
+				6684DB211D1B738F00B0A6AD /* FlowWaterLayout.h */,
+				6684DB221D1B738F00B0A6AD /* FlowWaterLayout.m */,
 				666AB2C01D1A30B5000507B8 /* Main.storyboard */,
 				666AB2C31D1A30B5000507B8 /* Assets.xcassets */,
 				666AB2C51D1A30B5000507B8 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6684DB231D1B738F00B0A6AD /* FlowWaterLayout.m in Sources */,
 				666AB2BF1D1A30B5000507B8 /* ViewController.m in Sources */,
 				666AB2D01D1A3136000507B8 /* LineLayout.m in Sources */,
 				666AB2BC1D1A30B5000507B8 /* AppDelegate.m in Sources */,
@@ -306,6 +312,7 @@
 				666AB2CD1D1A30B5000507B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
