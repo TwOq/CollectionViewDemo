@@ -5,3 +5,5 @@
 
 
 ![](https://github.com/TwOq/CollectionViewDemo/raw/master/lineLayout.gif) 
+
+![](https://github.com/TwOq/CollectionViewDemo/raw/master/flowWaterLayout.gif) 
